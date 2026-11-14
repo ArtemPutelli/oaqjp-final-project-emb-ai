@@ -18,10 +18,12 @@ def emotion_detector(text_to_analyze):
 
     for emotion in emotions:
         
-        ominant_emotio < eemotions[motion.]
+        result[emotion] = emotions[emotion]
         
-           dominant_emotion_value] =emotions[emotion]            dominant_emotion[1] = emotion.value
+        if dominant_emotion_value < emotions[emotion]:
             dominant_emotion_key = emotion
-            dominant_emotion_value = emotions[emotion]    result["dominant_emotion"] = dominant_emotion[0]
-    return resultdominant_emotion_key    return result
-file:///home/project/final_project/oaqjp-final-project-emb-ai/emotion_detection.pyemotion_detection
+            dominant_emotion_value = emotions[emotion]
+
+    result["dominant_emotion"] = dominant_emotion_key
+
+    return result
